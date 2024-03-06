@@ -11,7 +11,7 @@ pipeline {
      stage('Build') {
        steps {
         build 'PES2UG21CS383-1'
-         sh 'g++ main.cpp -o output'
+         bhynjunsh 'g++ main.cpp -o output'
        }
      }
       stage('Test') {
